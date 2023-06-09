@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+  <meta charset="utf-8">
+  <script src="script/clinica.js"></script>
+  <link href="css/clinica.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+    crossorigin="anonymous">
+  <title>Insert title here</title>
+</head>
+<body>
+  <h1 class="title">Datos de Pacientes</h1> <br>
+
+  <button class="nav-button">
+    <a href="nuevoIngreso.html">Ir ingresar paciente</a>
+  </button>
+
+  <button class="nav-button">
+    <a href="altaPaciente.html">Ir a dar alta al paciente</a>
+  </button><br><br>
+
+  <table class="tab1">
+    <thead>
+      <tr>      
+        <th>Nombre</th>
+        <th>Teléfono</th>
+        <th>Edad</th>
+        <th>Fecha de ingreso</th>
+        <th>Fecha de alta</th>
+      </tr>
+    </thead>
+    <tbody id="tablaPacientes"></tbody>
+  </table>
+  <script>   
+    // Llamar a la función para mostrar los pacientes guardados 
+    mostrarPacientes();
+  </script>
+<button type="button" onclick="Resetear()" style="background-color: red; color: white;">Resetear</button>
+
+</body>
+</html>

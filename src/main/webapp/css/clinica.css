@@ -1,0 +1,62 @@
+body {
+  background-color: white;
+  color: black;
+}
+.box {
+  border: 1px solid #000000;
+  padding: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+ table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+button  {
+  background-color: #007bff;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: 0080ff;
+  font-weight: bold;
+}
+.keep {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+.keep button {
+  margin-right: 30px;
+}
+
+button a {	
+   text-decoration: none;
+    color: white;
+}
+.keep {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Centrar títulos e input */
+h1, input[type="text"] {
+  text-align: center;
+}
+
+
